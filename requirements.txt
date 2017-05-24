@@ -1,0 +1,6 @@
+python_http_client
+mock
+coverage
+pytest
+pytest-cov
+unittest-data-provider

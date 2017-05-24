@@ -1,0 +1,7 @@
+venv/
+.eggs/
+dist/
+*.pyc
+*.egg-info
+.coverage
+.cache
