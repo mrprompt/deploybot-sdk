@@ -42,7 +42,7 @@ Get one or list repositories.
 ```python
 from deploybot.repository import Repository
 
-# client is set before
+# client is defined before
 client = object
 
 repository = Repository(client)
@@ -63,7 +63,7 @@ Get one or list your environments
 ```python
 from deploybot.environment import Environment
 
-# client is set before
+# client is defined before
 client = object
 
 environment = Environment(client)
@@ -88,7 +88,7 @@ Get one or list your servers
 ```python
 from deploybot.server import Server
 
-# client is set before
+# client is defined before
 client = object
 
 server = Server(client)
