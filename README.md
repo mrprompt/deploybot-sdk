@@ -10,13 +10,31 @@
 
 A library to [Deploybot](https://www.deploybot.com) API.
 
-# Install
+## Install
 
 ```
 pip install deploybot-sdk
 ```
 
-# Test
+## Usage
+
+```
+from deploybot.client import Client
+from deploybot.user import User
+import os
+
+account = os.environ.get('DEPLOYBOT_ACCOUNT')
+token = os.environ.get('DEPLOYBOT_TOKEN')
+
+client = Client(account, token)
+repository = Repository(client)
+
+print(repository.list())
+print(repository.get(99999))
+
+```
+
+## Test
 
 ```
 python setup.py test
