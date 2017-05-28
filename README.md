@@ -10,6 +10,9 @@
 
 A library to [Deploybot](https://www.deploybot.com) API.
 
+To see how to use, look [Cli](https://github.com/mrprompt/deploybot-cli).
+
+
 ## Install
 
 ```
