@@ -5,7 +5,7 @@ import python_http_client
 import os
 
 
-class TestClient(TestCase):
+class ClientTest(TestCase):
     # Bootstrap
     def setUp(self):
         TestCase.setUp(self)

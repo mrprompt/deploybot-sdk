@@ -6,7 +6,7 @@ import mock
 Client = mock.Mock()
 
 
-class TestServer(TestCase):
+class ServerTest(TestCase):
     # Bootstrap
     def setUp(self):
         TestCase.setUp(self)
