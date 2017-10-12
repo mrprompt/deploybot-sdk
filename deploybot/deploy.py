@@ -3,6 +3,8 @@
 Deployment Class
 """
 
+from deploybot.server import Server
+
 
 class Deploy:
     """

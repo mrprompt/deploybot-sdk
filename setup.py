@@ -18,7 +18,7 @@ setup(
     zip_safe=False,
     packages=find_packages(),
     install_requires=[
-        'python_http_client',
+        'deploybot-client',
     ],
     extras_require={
         'test': ['pytest', 'pytest-cov', 'mock', 'unittest-data-provider'],
