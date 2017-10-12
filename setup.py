@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(
     name="deploybot-sdk",
     test_suite='test',
-    version='0.0.2',
+    version='0.0.3',
     description=u"Deploybot API Client",
     long_description=u"Deploybot SDK",
     classifiers=[],
